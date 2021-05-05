@@ -1,0 +1,31 @@
+{
+  "name": "token-arz",
+  "version": "1.0.0",
+  "description": "Truffle box configured to create a token using Open Zeppelin smart contracts and publish on Goerli testnet",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solangegueiros/token-arz.git"
+  },
+  "keywords": [
+    "blockchain",
+    "smart contracts",
+    "ethereum"
+  ],
+  "author": "Solange Gueiros <solangegueiros@gmail.com> (https://solange.dev)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/solangegueiros/token-arz/issues"
+  },
+  "homepage": "https://github.com/solangegueiros/token-arz#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "4.1.0",
+    "@truffle/hdwallet-provider": "1.3.0"
+  }
+}
